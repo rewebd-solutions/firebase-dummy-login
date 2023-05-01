@@ -1,0 +1,22 @@
+[debug] [2023-05-01T18:44:31.396Z] ----------------------------------------------------------------------
+[debug] [2023-05-01T18:44:31.404Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\E.sachin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-05-01T18:44:31.406Z] CLI Version:   11.29.1
+[debug] [2023-05-01T18:44:31.407Z] Platform:      win32
+[debug] [2023-05-01T18:44:31.407Z] Node Version:  v18.15.0
+[debug] [2023-05-01T18:44:31.410Z] Time:          Tue May 02 2023 00:14:31 GMT+0530 (India Standard Time)
+[debug] [2023-05-01T18:44:31.411Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-01T18:44:31.810Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-01T18:44:31.812Z] > authorizing via signed-in user (sit21it063@sairamtap.edu.in)
+[debug] [2023-05-01T18:44:31.812Z] [iam] checking project quick-test-6788e for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-05-01T18:44:31.818Z] > refreshing access token with scopes: []
+[debug] [2023-05-01T18:44:31.825Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-01T18:44:31.826Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-01T18:44:43.265Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-05-01T18:44:43.266Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-01T18:44:43.353Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/quick-test-6788e:testIamPermissions [none]
+[debug] [2023-05-01T18:44:43.354Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/quick-test-6788e:testIamPermissions x-goog-quota-user=projects/quick-test-6788e
+[debug] [2023-05-01T18:44:43.355Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/quick-test-6788e:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-05-01T18:44:44.697Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/quick-test-6788e:testIamPermissions 200
+[debug] [2023-05-01T18:44:44.698Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/quick-test-6788e:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-05-01T18:44:44.702Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/quick-test-6788e [none]
